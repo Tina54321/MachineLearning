@@ -21,7 +21,7 @@ for voice in voices:
         break
 # Iterate over each page in the PDF
 for pagenumber in range(len(readpdf.pages)):
-    if pagenumber < 3: continue
+    if pagenumber < 5: continue
     # Extract text from the page
     page = readpdf.pages[pagenumber]
     text = page.extract_text()
