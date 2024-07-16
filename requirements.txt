@@ -1,2 +1,4 @@
 PyPDF2
 pyttsx3
+streamlit
+scikit-learn
